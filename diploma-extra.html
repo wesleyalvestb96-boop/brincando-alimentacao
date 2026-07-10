@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Diploma de Alimentação Saudável + 10 Figuras Extras</title>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:wght@300;400;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --verde: #6BAE2E;
+    --verde-dark: #4A7A1E;
+    --laranja: #F5A623;
+    --laranja-dark: #D9820E;
+    --cream: #FFFBF2;
+    --dark: #2B2410;
+    --mid: #5A4F30;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'Nunito', sans-serif;
+    background: var(--cream);
+    color: var(--dark);
+    overflow-x: hidden;
+  }
+
+  .hero {
+    background: linear-gradient(160deg, var(--verde) 0%, var(--verde-dark) 50%, var(--laranja) 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 60px 20px;
+  }
+
+  .hero-content { max-width: 780px; }
+
+  .hero-badge {
+    display: inline-block;
+    background: rgba(255,255,255,0.25);
+    border: 2px solid white;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 8px 22px;
+    border-radius: 30px;
+    margin-bottom: 26px;
+  }
+
+  .hero-title {
+    font-family: 'Baloo 2', sans-serif;
+    font-size: clamp(2rem, 5vw, 3.6rem);
+    font-weight: 800;
+    color: white;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+
+  .hero-subtitle {
+    font-size: clamp(1rem, 2vw, 1.15rem);
+    color: rgba(255,255,255,0.95);
+    line-height: 1.7;
+    margin-bottom: 36px;
+    max-width: 580px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-cover {
+    max-width: 320px;
+    width: 100%;
+    border-radius: 16px;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.3);
+    margin-bottom: 36px;
+  }
+
+  .btn-main {
+    display: inline-block;
+    background: white;
+    color: var(--verde-dark);
+    font-weight: 800;
+    font-family: 'Baloo 2', sans-serif;
+    font-size: 1.15rem;
+    padding: 18px 46px;
+    border-radius: 50px;
+    text-decoration: none;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+    transition: transform 0.2s ease;
+  }
+  .btn-main:hover { transform: translateY(-3px); }
+
+  .price-tag {
+    margin-top: 18px;
+    color: white;
+    font-size: 0.95rem;
+    opacity: 0.9;
+  }
+
+  section {
+    max-width: 820px;
+    margin: 0 auto;
+    padding: 70px 24px;
+  }
+
+  h2 {
+    font-family: 'Baloo 2', sans-serif;
+    color: var(--verde-dark);
+    font-size: clamp(1.6rem, 4vw, 2.2rem);
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .grid-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 24px;
+  }
+
+  .item-card {
+    background: white;
+    border: 2px solid #f0ead8;
+    border-radius: 16px;
+    padding: 28px 22px;
+    text-align: center;
+  }
+
+  .item-card .emoji { font-size: 44px; margin-bottom: 14px; }
+
+  .item-card h3 {
+    font-family: 'Baloo 2', sans-serif;
+    color: var(--verde-dark);
+    font-size: 1.15rem;
+    margin-bottom: 8px;
+  }
+
+  .item-card p { color: var(--mid); font-size: 0.95rem; line-height: 1.5; }
+
+  .foods {
+    background: white;
+    border-radius: 16px;
+    padding: 30px;
+    text-align: center;
+    border: 2px dashed var(--laranja);
+  }
+
+  .foods p { color: var(--mid); line-height: 1.8; font-size: 1.05rem; }
+
+  .cta-final {
+    background: linear-gradient(135deg, var(--laranja) 0%, var(--laranja-dark) 100%);
+    text-align: center;
+    padding: 70px 24px;
+  }
+
+  .cta-final h2 { color: white; }
+
+  .cta-final p {
+    color: rgba(255,255,255,0.95);
+    max-width: 540px;
+    margin: 0 auto 30px;
+    font-size: 1.05rem;
+  }
+
+  .cta-final .btn-main { color: var(--laranja-dark); }
+
+  footer {
+    text-align: center;
+    padding: 30px;
+    color: var(--mid);
+    font-size: 0.85rem;
+  }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="hero-content">
+    <span class="hero-badge">Complemento Exclusivo</span>
+    <img src="capa-order-bump-diploma.png" alt="Diploma de Alimentação Saudável + 10 Figuras Extras" class="hero-cover">
+    <h1 class="hero-title">Diploma de Alimentação Saudável + 10 Figuras Extras</h1>
+    <p class="hero-subtitle">O complemento perfeito para "Brincando com a Alimentação": um diploma personalizado para a criança comemorar a conquista, e mais 10 figuras de alimentos para expandir a brincadeira.</p>
+    <a href="#COLAR_LINK_KIWIFY_AQUI" class="btn-main">Quero Adicionar Agora</a>
+    <div class="price-tag">Apenas R$9,90 · Entrega imediata</div>
+  </div>
+</div>
+
+<section>
+  <h2>O Que Você Recebe</h2>
+  <div class="grid-items">
+    <div class="item-card">
+      <div class="emoji">🏅</div>
+      <h3>Diploma Personalizado</h3>
+      <p>A criança escreve o próprio nome e celebra ter aprendido a diferença entre alimentos saudáveis e não saudáveis.</p>
+    </div>
+    <div class="item-card">
+      <div class="emoji">✂️</div>
+      <h3>10 Figuras Extras</h3>
+      <p>Mais alimentos para recortar e continuar a brincadeira, ampliando o repertório de reconhecimento da criança.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Alimentos Inclusos</h2>
+  <div class="foods">
+    <p>🥛 Leite · 🥣 Iogurte · 🐟 Peixe · 🍠 Batata Doce · 🌾 Aveia<br>
+    🍉 Melancia · 🍿 Pipoca Natural · 🧃 Suco Natural · 🥜 Castanhas · 🧀 Queijo</p>
+  </div>
+</section>
+
+<div class="cta-final">
+  <h2>Complete a Experiência do Seu Filho</h2>
+  <p>Por menos de R$10, seu filho leva a brincadeira além — com um diploma para guardar e mais alimentos para aprender.</p>
+  <a href="#COLAR_LINK_KIWIFY_AQUI" class="btn-main">Adicionar por R$9,90</a>
+</div>
+
+<footer>
+  Complemento digital para "Brincando com a Alimentação" · Entrega imediata após a compra
+</footer>
+
+</body>
+</html>
